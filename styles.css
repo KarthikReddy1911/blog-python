@@ -1,0 +1,176 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6200ea, #4500b5);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h3, h4 {
+    color: #6200ea;
+}
+
+pre {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+code {
+    font-size: 1em;
+    font-family: 'Courier New', monospace;
+}
+/* Style for the code block */
+.code-block {
+    background-color: #2d2d2d; /* Black background */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    padding: 0; /* Remove padding for the <pre> tag */
+}
+
+
+
+pre {
+    margin: 0; /* Remove default margin */
+    position: relative;
+}
+
+/* Style for the <code> block */
+.language-python {
+    display: block;
+    padding: 16px; /* Padding inside the code block */
+    color: #f8f8f2; /* Light text for readability */
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    white-space: pre-wrap; /* Allow wrapping if needed */
+}
+
+/* Highlighting syntax for Python */
+.language-python .keyword {
+    color: #66d9ef; /* Cyan for keywords */
+    font-weight: bold;
+}
+
+.language-python .string {
+    color: #e6db74; /* Yellow for strings */
+}
+
+.language-python .function {
+    color: #a6e22e; /* Green for functions */
+}
+
+.language-python .comment {
+    color: #75715e; /* Gray for comments */
+    font-style: italic;
+}
+
+/* Style for the copy button */
+.copy-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #007bff; /* Blue button background */
+    color: #f8f8f2; /* Light text */
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    z-index: 10;
+    display: flex; /* Flexbox for icon and text alignment */
+    align-items: center; /* Center icon and text vertically */
+    gap: 5px; /* Space between icon and text */
+    transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+
+
+.copy-text {
+    vertical-align: middle;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #4500b5;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
